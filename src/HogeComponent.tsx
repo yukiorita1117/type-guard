@@ -1,6 +1,11 @@
 import React from "react";
 
-const HogeComponent = (description: string) => {
+type Props = {
+  className?: string;
+  description:string;
+};
+
+const HogeComponent: React.FC<Props> = ({description}: Props) => {
   return (
     <>
       <p>{description}</p>
