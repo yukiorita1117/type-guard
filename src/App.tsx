@@ -3,7 +3,8 @@ import "./App.css";
 import HogeComponent from "./HogeComponent";
 import { HogeData } from "./hogeData";
 
-const id = "";
+// 本来は外部から渡される想定
+const id = "first";
 
 function App() {
   const descriptionData = HogeData[id];
