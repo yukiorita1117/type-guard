@@ -1,0 +1,16 @@
+{
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+    //   ESLintのルールを上書きするためts eslintのあとに以下を書く必要がある。
+      "plugin:prettier/recommended", 
+      "prettier/@typescript-eslint"
+    ],
+    "env": {
+          "browser": true,
+          "es6": true,
+          "node": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+      }
+  }
