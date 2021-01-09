@@ -5,7 +5,7 @@ import { HogeData } from "./hogeData";
 
 // TODO eslint / prettier を入れないとerrorが出ないっぽい？
 // cosmeと同じルールで縛る必要がある。
-const id = "first";
+const id = "";
 
 function App() {
   // const sampleData = HogeData[id];
