@@ -1,13 +1,12 @@
-
 export const HogeData: {
-    [key: string]: {
-      description: string;
-    };
-  } = {
-    first: {
-      description: "ほげほげほげ"
-    },
-    second:{
-        description: "ふがふがふが"
-    }
+  [key: string]: {
+    description: string;
   };
+} = {
+  first: {
+    description: "ほげほげほげ",
+  },
+  second: {
+    description: "ふがふがふが",
+  },
+};
