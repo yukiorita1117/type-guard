@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {HogeData && (
-          <HogeComponent description={HogeData[id].description ?? ""} />
+          <HogeComponent description={HogeData[id]?.description ?? ""} />
         )}
       </header>
     </div>
