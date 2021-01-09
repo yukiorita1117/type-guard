@@ -10,12 +10,12 @@ const id = "";
 function App() {
   // const sampleData = HogeData[id];
   // console.log("sampleDataは？ : ", sampleData.description);
-
+  const descriptionData = HogeData[id];
   return (
     <div className="App">
       <header className="App-header">
-        {HogeData && (
-          <HogeComponent description={HogeData[id]?.description ?? ""} />
+        {descriptionData && (
+          <HogeComponent description={descriptionData.description} />
         )}
       </header>
     </div>
